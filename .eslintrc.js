@@ -10,6 +10,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "standard-with-typescript",
     "next/core-web-vitals",
+    "prettier",
   ],
   overrides: [],
   parserOptions: {
