@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint --ext .ts,.tsx ./src ",
-    "lint:fix": "eslint --ext .ts,.tsx ./src --fix"
+    "lint:fix": "eslint --ext .ts,.tsx ./src --fix",
+    "prettier": "prettier \"**/*.+(json|ts|tsx)\"",
+    "format:fix": "npm run prettier -- --write"
   },
   "dependencies": {
     "@types/node": "18.15.10",
